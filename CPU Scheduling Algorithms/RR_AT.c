@@ -63,24 +63,26 @@ void main()
 
 /* Output
 
-Enter Total Number of Process:3
-Enter Burst Time and Priority
-
-P[1]
-Burst Time:10
-Priority:2
-P[2]
-Burst Time:5
-Priority:0
-P[3]
-Burst Time:8
-Priority:1
-Process	    Burst Time    	Waiting Time	Turnaround Time
-P[2]		  5		    0			5
-P[3]		  8		    5			13
-P[1]		  10		    13			23
-
-Average Waiting Time=6
-Average Turnaround Time=13
+Total number of process in the system: 4
+Enter the Arrival and Burst time of the Process[1]
+ Arrival time is: 	0
+ Burst time is: 	8
+ Enter the Arrival and Burst time of the Process[2]
+ Arrival time is: 	1
+ Burst time is: 	5
+ Enter the Arrival and Burst time of the Process[3]
+ Arrival time is: 	2
+ Burst time is: 	10
+ Enter the Arrival and Burst time of the Process[4]
+ Arrival time is: 	3
+ Burst time is: 	11
+ Enter the Time Quantum for the process: 	6
+ Process No 		 Burst Time 		 TAT 		 Waiting Time 
+Process No[2] 		 5				 10			 5
+Process No[1] 		 8				 25			 17
+Process No[3] 		 10				 27			 17
+Process No[4] 		 11				 31			 20
+ Average Turn Around Time: 	14.750000
+ Average Waiting Time: 	23.250000
 
 */
